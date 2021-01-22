@@ -6,7 +6,7 @@
       </html>
       ]]>
     </description>
-    <version>1.5.0</version>
+    <version>1.5.1</version>
     <vendor email="wyh405003836@126.com">zzz40500</vendor>
     <idea-version since-build="107.121"/>
     <change-notes><![CDATA[
@@ -22,6 +22,10 @@
   <li>fix several bug </li>
   <li>fix unlock setting window size </li>
   </p>
+  1.5.1
+  <ul>
+  <li>support Android Studio 4.1 </li>
+  </p>
 ]]></change-notes>
     <actions>
         <action id="Gsonformat" class="org.gsonformat.intellij.MainAction" text="GsonFormat">
@@ -30,4 +34,5 @@
         </action>
     </actions>
     <extensions defaultExtensionNs="com.intellij"/>
+    <depends>com.intellij.modules.java</depends>
 </idea-plugin>
