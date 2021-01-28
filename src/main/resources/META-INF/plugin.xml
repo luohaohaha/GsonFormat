@@ -1,14 +1,18 @@
 <idea-plugin version="2">
-    <name>GsonFormat</name>
+    <name>GsonFormat-Support4.1</name>
     <description><![CDATA[
 <html>quickly to convert a JSON string to an InnerClassEntity class ..<br>
 <a href="https://github.com/zzz40500/GsonFormat"> openSource</a>
-      </html>
+        <p>This branch is a fix to the original branch issues, because the original author has not
+            maintained it for a long time, this version supports Android Studio 4.1.
+        </p>
+        <a href="https://github.com/zzz40500/GsonFormat/pull/150">See details</a>
+         </html>
       ]]>
     </description>
     <version>1.5.1</version>
-    <vendor email="wyh405003836@126.com">zzz40500</vendor>
-    <idea-version since-build="107.121"/>
+    <vendor email="luohaohaha@gmail.com">luohao</vendor>
+    <idea-version since-build="107.121" />
     <change-notes><![CDATA[
   <p>
   1.4.0
@@ -21,18 +25,20 @@
   <ul>
   <li>fix several bug </li>
   <li>fix unlock setting window size </li>
-  </p>
+  </ul>
   1.5.1
   <ul>
   <li>support Android Studio 4.1 </li>
+  </ul>
   </p>
 ]]></change-notes>
     <actions>
-        <action id="Gsonformat" class="org.gsonformat.intellij.MainAction" text="GsonFormat">
-            <add-to-group group-id="GenerateGroup" anchor="last"/>
-            <keyboard-shortcut keymap="$default" first-keystroke="alt s"/>
+        <action class="org.gsonformat.intellij.MainAction" id="GsonFormat-Support4.1"
+            text="GsonFormat">
+            <add-to-group anchor="last" group-id="GenerateGroup" />
+            <keyboard-shortcut first-keystroke="alt s" keymap="$default" />
         </action>
     </actions>
-    <extensions defaultExtensionNs="com.intellij"/>
+    <extensions defaultExtensionNs="com.intellij" />
     <depends>com.intellij.modules.java</depends>
 </idea-plugin>
