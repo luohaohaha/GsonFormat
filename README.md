@@ -38,15 +38,9 @@ You can change the hotkey via:
   
 ## Version Info
 
-v1.2.2
+v1.5.1
 > 
-* Supports field type changes.
-* Supports shortcut to open GsonFormat, default option + s (mac), alt + s (win)
-* Support for field name changes.
-* Support to add the prefix field.
-* Support for multiple conversion libraries (Gson, Jackjson, FastJson, LoganSquare).
-* Support for private and public modes.
-* Supports filtering of superclass into existing fields.
+* Support Android Studio 4.1.
 
 ## License
 
